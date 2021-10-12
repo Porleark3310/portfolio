@@ -191,7 +191,7 @@ const Contact = () => {
                     </SectionHeader>
                 </SmallWrapper>
                 <Text>
-                    Wanna talk? Shoot me a message or check me out on one of my socials. Looking forward to working with you!
+                    Want to talk? Shoot me a message or check me out on one of my socials. Looking forward to working with you!
                 </Text>
                 </Fade>
                 <Socials>

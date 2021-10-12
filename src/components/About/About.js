@@ -110,7 +110,7 @@ const About = () => {
                             <Text>
                                 I am on a mission to combine my Computer Science degree alongside my love of art and design.
                                 Currently, I am interested in furthering my skills as a Developer and Web Designer to create
-                                appealing, yet practical, applications with the goal of becoming a Full Stack Developer.
+                                appealing, yet practical, applications with the goal of becoming a Full-stack Developer.
                             </Text>
                         </Fade>
                     </Content>
