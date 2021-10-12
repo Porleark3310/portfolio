@@ -106,7 +106,7 @@ const Image = styled.img`
 const Text = styled.p`
     font-size: 1.2rem;
     padding: 2rem 0rem;
-    color: ${props => props.setTextColor ? props.setTextColor : '#1c1c31'};
+    color: ${props => props.setTextColor ? props.setTextColor : '#282849;'};
     @media screen and (max-width: 768px){
         font-size: 1.1rem;
     }
@@ -115,7 +115,7 @@ const Header = styled.h1`
     font-size: 1.6rem;
     padding: 1rem 0rem;
     margin: 0 auto;
-    color: #1c1c31;
+    color: #282849;
 `;
 
 
@@ -140,7 +140,7 @@ const Card = () => {
                                                 Design
                                             </Header>
                                             <Text>
-                                                Need me to make a graphic illustration, an SVG, pamphlet or brochure? Virtually all graphics and website designs were made by me using Adobe and Affinity Designer.
+                                                Graphic illustration, pamphlet, brochure or SVG? No problem! Virtually all graphics and website designs were made by me using the Adobe Suite and Affinity Designer.
                                             </Text>
                                         </Fade>
                                     </MainContent>
@@ -157,7 +157,7 @@ const Card = () => {
                                                 Program
                                             </Header>
                                             <Text>
-                                                Being a CS graduate, I can turn designs into a functional Frontend prototype. If you should desire it, I can do backend too.
+                                                Being a CS graduate, I can turn designs into functional Frontend prototypes. If you should need it, I can do backend too.
                                             </Text>
                                         </Fade>
                                     </MainContent>

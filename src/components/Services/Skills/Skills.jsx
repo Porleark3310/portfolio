@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { FaPython, FaJava, FaNodeJs, FaReact, FaTools } from 'react-icons/fa';
 import { DiJavascript1} from 'react-icons/di';
 import { SiAffinitydesigner, SiAdobexd, SiFigma} from 'react-icons/si';
+
 import { BiCodeBlock} from 'react-icons/bi';
 import { ImStack} from 'react-icons/im';
 import { Fade,Slide } from "react-awesome-reveal";
@@ -125,7 +126,7 @@ const Header = styled.h1`
     font-size: 2.4rem;
     padding: 1rem 0rem;
     margin: 0 auto;
-    color: #1c1c31;
+    color: #282849;
 
     &:after{
         display: block;
@@ -175,7 +176,7 @@ const Skills = () => {
                             <Icon>
                                 <FaNodeJs/>
                             </Icon>
-                            <Text textWidth={'100%'}>Express</Text>
+                            <Text textWidth={'100%'}>Node</Text>
                         </Item>
                         <Item>
                             <Icon>

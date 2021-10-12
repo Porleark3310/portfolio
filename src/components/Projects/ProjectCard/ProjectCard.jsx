@@ -57,11 +57,13 @@ const Image = styled.img`
 
 const Title = styled.h1`
     font-size: 1.6rem;
+    color: #282849;
 `;
 
 const Desc = styled.p`
     font-size: 1.2rem;
     padding: .6rem;
+    color: #282849;
 `;
 
 const Button = styled.button`
@@ -158,7 +160,9 @@ const ProjectCard = () => {
                             Website design of a fake mechanical keyboard vendor. Website made with AdobeXD. Contains general layout of main page, catalouge and shopping cart.
                         </Desc>
                         <ButtonWrapper>
-                            <Button setBgColor = "#0053EF">Behance</Button> 
+                            <a href="https://www.behance.net/gallery/129112053/The-Keyosk?" target="_blank">
+                                <Button setBgColor = "#0053EF">Behance</Button> 
+                            </a>
                         </ButtonWrapper>
                     </Card>
                     <Card setBgColor="#e5f4ff">
@@ -170,7 +174,9 @@ const ProjectCard = () => {
                         Website design of a fake VPN product. Made using AdobeXD with small amount of prototyping effect and mobile layout.
                         </Desc>
                         <ButtonWrapper>
-                            <Button setBgColor = "#0053EF">Behance</Button>
+                            <a href="https://www.behance.net/gallery/129105835/HushVPN" target="_blank">
+                                <Button setBgColor = "#0053EF">Behance</Button> 
+                            </a>
                         </ButtonWrapper>
                     </Card>
                 </Fade>

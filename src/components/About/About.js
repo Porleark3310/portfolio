@@ -52,12 +52,13 @@ const SectionHeader = styled.h1`
     color: #1fef9f;
     z-index: 2;
     padding: 1rem 0rem;
+    color: #282849;
     &:after{
         display: block;
         content: '';
         width: 60px;
         height: 10px;
-        background-color: #1fef9f;
+        background-color: #282849;
     }
 `;
 
@@ -107,7 +108,9 @@ const About = () => {
                         </SectionWrapper>
                         <Fade triggerOnce = {true} direction="down">
                             <Text>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum obcaecati beatae vel illo alias tempore aspernatur quam ea placeat. Temporibus vitae tempore iure ullam laboriosam perspiciatis labore quisquam totam rerum.
+                                I am on a mission to combine my Computer Science degree alongside my love of art and design.
+                                Currently, I am interested in furthering my skills as a Developer and Web Designer to create
+                                appealing, yet practical, applications with the goal of becoming a Full Stack Developer.
                             </Text>
                         </Fade>
                     </Content>

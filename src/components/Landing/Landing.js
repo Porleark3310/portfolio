@@ -1,6 +1,7 @@
 import React from 'react'
 import chicago2 from '../../images/chicagonightedit.png';
-import { FaLinkedinIn, FaYoutube, FaDribbble } from 'react-icons/fa';
+import Pdf from '../../assets/Porleark_Tuy_CV.pdf'
+import { FaLinkedinIn, FaYoutube, FaBehance } from 'react-icons/fa';
 import styled, { keyframes } from "styled-components";
 import { Fade,Slide } from "react-awesome-reveal";
 import {Link as LinkScroll} from 'react-scroll';
@@ -34,11 +35,7 @@ const Container = styled.div`
     justify-content: center;
     width: 100%;
     min-height: 100vh;
-    background-image: url(${chicago2});
-    background-color: #160b49;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #004CFF;
 `;
 
 const Wrapper = styled.div`
@@ -126,7 +123,6 @@ const Arrow = styled.div`
 const ButtonWrapper = styled.div`
     display: flex;
     flex-direction: row;
-    width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
     opacity: 0 ;
@@ -134,6 +130,7 @@ const ButtonWrapper = styled.div`
     animation-duration: 1s;
     animation-delay: 1.5s;
     animation-fill-mode: forwards;
+    margin-left: 0;
     @media screen and (max-width: 768px){
         flex-direction: column;
         margin-top: 30px;
@@ -177,8 +174,8 @@ const MobileSocials = styled.div`
 
 const MobileIcon = styled.div`
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     width: 50px;
     height: 50px;
     border: 2px solid white;
@@ -226,8 +223,9 @@ const Icon = styled.div`
     transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     padding: 4px;
     cursor: pointer;
-    margin: 1rem 2.5rem;
+    margin: 1rem 1.5rem;
     &:hover{
+        transform: translateX(10px);
         color:white;
         border: 2px solid #282849;
         background-color: ${props => props.bgcolor};
@@ -248,47 +246,61 @@ const Landing = () => {
                 </Header>
                 <TextWrapper>
                     <Text>
-                        I'm a Developer and Aspiring Designer
+                        I'm a Developer and Web Designer
                     </Text>
                 </TextWrapper>
                 <ButtonWrapper>
-                        <Button>Download CV</Button>
-                        <Button>
-                            <LinkScroll
-                                to = "contact"
-                                smooth={true}
-                                duration={500}
-                                exact={true}
-                            >
-                                Contact
-                            </LinkScroll>
-                        </Button>
+                        <a href = {Pdf} target = "_blank">
+                            <Button>Download CV</Button>
+                        </a>
+                        <LinkScroll
+                            to = "contact"
+                            smooth={true}
+                            duration={500}
+                            exact={true}
+                        >
+                            <Button>
+                                    Contact
+                            </Button>
+                        </LinkScroll>
                 </ButtonWrapper>
                 <MobileSocials>
                     <Fade cascade triggerOnce>
-                        <MobileIcon bgcolor={'#0A66C2'}>
-                            <FaLinkedinIn/>
-                        </MobileIcon>
-                        <MobileIcon  bgcolor={'#CD201F'}>
-                            <FaYoutube/>
-                        </MobileIcon>                
-                        <MobileIcon  bgcolor={'#EA4C89'}>
-                            <FaDribbble/>
-                        </MobileIcon>
+                        <a href = "https://www.linkedin.com/in/porleark-tuy" target = "_blank" style = {{ color: 'inherit'}}>
+                            <MobileIcon bgcolor={'#0A66C2'}>
+                                <FaLinkedinIn/>
+                            </MobileIcon>
+                        </a>
+                        <a href = "https://www.youtube.com/channel/UC6wh-W0rZmCxV8wBk8dqVWw" target = "_blank" style = {{ color: 'inherit'}}>
+                            <MobileIcon  bgcolor={'#CD201F'}>
+                                <FaYoutube/>
+                            </MobileIcon>                
+                        </a>
+                        <a href = "https://www.behance.net/porlearktuy" target = "_blank" style = {{ color: 'inherit'}}>
+                            <MobileIcon  bgcolor={'#004CFF'}>
+                                <FaBehance/>
+                            </MobileIcon>
+                        </a>
                     </Fade>
                 </MobileSocials>
             </Wrapper>
             <Socials>
                 <Fade cascade triggerOnce>
-                    <Icon bgcolor={'#0A66C2'}>
-                        <FaLinkedinIn/>
-                    </Icon>
-                    <Icon  bgcolor={'#CD201F'}>
-                        <FaYoutube/>
-                    </Icon>                
-                    <Icon  bgcolor={'#EA4C89'}>
-                        <FaDribbble/>
-                    </Icon>
+                    <a href = "https://www.linkedin.com/in/porleark-tuy" target = "_blank" style = {{ color: 'inherit', margin: '0'}}>
+                        <Icon bgcolor={'#0A66C2'}>
+                            <FaLinkedinIn/>
+                        </Icon>
+                    </a>
+                    <a href = "https://www.youtube.com/channel/UC6wh-W0rZmCxV8wBk8dqVWw" target = "_blank" style = {{ color: 'inherit', margin: '0'}}>
+                        <Icon  bgcolor={'#CD201F'}>
+                            <FaYoutube/>
+                        </Icon>                
+                    </a>
+                    <a href = "https://www.behance.net/porlearktuy" target = "_blank" style = {{ color: 'inherit', margin: '0'}}>
+                        <Icon  bgcolor={'#004CFF'}>
+                                <FaBehance/>
+                        </Icon>
+                    </a>
                 </Fade>
             </Socials>
         </Container>

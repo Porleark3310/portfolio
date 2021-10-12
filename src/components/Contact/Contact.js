@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import styled, { keyframes } from "styled-components";
-import { FaLinkedinIn, FaYoutube, FaDribbble } from 'react-icons/fa';
+import { FaLinkedinIn, FaYoutube, FaBehance } from 'react-icons/fa';
 import emailjs from 'emailjs-com';
 import airplane from '../../images/airplanebg.svg'
 import { Fade,Slide } from "react-awesome-reveal";
@@ -191,20 +191,26 @@ const Contact = () => {
                     </SectionHeader>
                 </SmallWrapper>
                 <Text>
-                    Wanna talk? Hit me up on one of my socials below or shoot me a message. I will get back to you as soon as I can.
+                    Wanna talk? Shoot me a message or check me out on one of my socials. Looking forward to working with you!
                 </Text>
                 </Fade>
                 <Socials>
                 <Fade cascade triggerOnce>
-                    <Icon bgcolor={'#0A66C2'}>
-                        <FaLinkedinIn/>
-                    </Icon>
-                    <Icon  bgcolor={'#CD201F'}>
-                        <FaYoutube/>
-                    </Icon>                
-                    <Icon  bgcolor={'#EA4C89'}>
-                        <FaDribbble/>
-                    </Icon>
+                    <a href = "https://www.linkedin.com/in/porleark-tuy" target = "_blank" style = {{ color: 'inherit', margin: '0'}}>
+                        <Icon bgcolor={'#0A66C2'}>
+                            <FaLinkedinIn/>
+                        </Icon>
+                    </a>
+                    <a href = "https://www.youtube.com/channel/UC6wh-W0rZmCxV8wBk8dqVWw" target = "_blank" style = {{ color: 'inherit', margin: '0'}}>
+                        <Icon  bgcolor={'#CD201F'}>
+                            <FaYoutube/>
+                        </Icon>                
+                    </a>
+                    <a href = "https://www.behance.net/porlearktuy" target = "_blank" style = {{ color: 'inherit', margin: '0'}}>
+                        <Icon  bgcolor={'#004CFF'}>
+                                <FaBehance/>
+                        </Icon>
+                    </a>
                 </Fade>
                 </Socials>
                 <Form ref={form} onSubmit={sendEmail} >

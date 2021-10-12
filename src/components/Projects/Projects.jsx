@@ -36,7 +36,7 @@ const SectionHeader = styled.h1`
     align-items: center;
     flex-direction: column;
     font-size: 2.8rem;
-    color: #1c1c31;
+    color: #282849;
     width: 100%;
     z-index: 2;
     &:after{
@@ -59,7 +59,7 @@ const Text = styled.p`
     font-size: ${props=>props.setFontSize ? props.setFontSize : '1.2rem'};
     font-weight: ${props=>props.setWeight ? props.setWeight : ''};
     margin-top: ${props=>props.setMarginTop ? props.setMarginTop : ''};
-    color: #1c1c31;
+    color: #282849;
     padding: 1rem 0rem;
     @media screen and (max-width: 768px){
         font-size: 1.2rem;
@@ -81,7 +81,7 @@ const Projects = () => {
             <Fade>
             <SectionWrapper>
                 <SectionHeader>03 - Projects</SectionHeader>
-                <Text>Here are some things I've been working on. I'm always working on something new and more projects are on the way.</Text>
+                <Text>Here are some things I've been working on. More cool designs and applications are on the way!</Text>
             </SectionWrapper>
             </Fade>
             <Wrapper>
