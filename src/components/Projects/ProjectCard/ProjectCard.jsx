@@ -106,7 +106,7 @@ const ProjectCard = () => {
                         </Thumbnail>
                         <Title>Crypto Tracker</Title>
                         <Desc> 
-                            A basic crypto currency tracker made in ReactJS and Coingecko to view current crypto prices.
+                            A basic cryptocurrency tracker made in ReactJS and Coingecko to view current crypto prices.
                         </Desc>
                         <ButtonWrapper>
                             <a href="https://github.com/Porleark3310/crypto-tracker" target="_blank">
@@ -123,7 +123,7 @@ const ProjectCard = () => {
                         </Thumbnail>
                         <Title>Netflix Clone</Title>
                         <Desc> 
-                            A clone of Netflix's dash made using ReactJS. You may hover over shows or click on them watch short trailers.
+                            A clone of Netflix's dashboard made using ReactJS. You may hover over shows or click on them watch a short trailer.
                         </Desc>
                         <ButtonWrapper>
                             <a href="https://github.com/Porleark3310/netflix-homepage-clone" target="_blank">
@@ -157,7 +157,7 @@ const ProjectCard = () => {
                         </Thumbnail>
                         <Title>Ecommerce Design</Title>
                         <Desc> 
-                            Website design of a fake mechanical keyboard vendor. Website made with AdobeXD. Contains general layout of main page, catalouge and shopping cart.
+                            Website design of a fake mechanical keyboard vendor. Website made with Adobe XD. Contains general layout of main page, catalouge and shopping cart.
                         </Desc>
                         <ButtonWrapper>
                             <a href="https://www.behance.net/gallery/129112053/The-Keyosk?" target="_blank">
@@ -171,7 +171,7 @@ const ProjectCard = () => {
                         </Thumbnail>
                         <Title>VPN Website Design</Title>
                         <Desc> 
-                        Website design of a fake VPN product. Made using AdobeXD with small amount of prototyping effect and mobile layout.
+                            Website design of a single-page, fake VPN made using Adobe XD.
                         </Desc>
                         <ButtonWrapper>
                             <a href="https://www.behance.net/gallery/129105835/HushVPN" target="_blank">
