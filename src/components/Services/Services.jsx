@@ -157,7 +157,7 @@ const Card = () => {
                                                 Program
                                             </Header>
                                             <Text>
-                                                Being a CS graduate, I can turn designs into functional Front-end prototypes. If you should need it, I can do Back-end too.
+                                                Being a CS graduate, I can turn designs into functional Front-end prototypes. If you should need it, I can do Back-end, too.
                                             </Text>
                                         </Fade>
                                     </MainContent>
